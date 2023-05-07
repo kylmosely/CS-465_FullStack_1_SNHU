@@ -1,0 +1,14 @@
+{
+  "name": "cs-465_fullstack_1_snhu",
+  "version": "1.0.0",
+  "description": "Initial Commit README",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
