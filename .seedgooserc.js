@@ -5,3 +5,4 @@ module.exports = {
     data: 'data', // data directory name
     db: 'mongodb://localhost:27017/travlr' // db connection url
   };
+  

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const host = process.env.DB_HOST || '127.0.0.1';
 const dbURI = 'mongodb://localhost:27020/travlr';
 const readline = require('readline');
-
+ 
 
 const connect = () => {
     setTimeout (() => mongoose.connect(dbURI, {

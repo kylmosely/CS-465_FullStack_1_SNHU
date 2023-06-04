@@ -23,10 +23,10 @@ img {
 #contents div.box, #contents div.box > div, #contents div.body {
 	background-image: url(../images/content-box.png);
 	background-repeat: no-repeat;
-}
+} 
 #main div.box, #main div.box > div, #main div.box > div > div {
 	background-image: url(../images/bg-box.png);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 }
 /*------------------------------ HEADER ------------------------------*/
 #header {

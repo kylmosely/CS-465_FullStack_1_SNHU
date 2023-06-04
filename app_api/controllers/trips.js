@@ -1,12 +1,13 @@
 const mongoose = require('mongoose');
 const model = mongoose.model('trip');
 
+
 //GET: /trips - lists all the trips
 const tripsList = async (req, res) => {
     model
         .find({}) //empty filter for all
         .exec((err, trips)=> {
-            if (!trips) {
+            if (!trips) { 
                 return res
                     .status(404)
                     .json({"message": "trip not found"});

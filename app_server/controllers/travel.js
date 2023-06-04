@@ -6,6 +6,7 @@ const apiOptions = {
     server: 'http://localhost:3000'
 }
 
+
 /*Internal method to render the travel list*/
 
 const renderTravelList = (req, res, responseBody) => {
