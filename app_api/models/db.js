@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb://localhost:27020/travlr';
+const dbURI = 'mongodb://localhost:27017/travlr';
 
 if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGODB_URI;
@@ -29,7 +29,7 @@ const gracefulShutdown = (msg, callback) => {
   });
 };
 
-// For nodemon restarts                                  
+// For nodemon restarts                                 
 process.once('SIGUSR2', () => {
   gracefulShutdown('nodemon restart', () => {
     process.kill(process.pid, 'SIGUSR2');
